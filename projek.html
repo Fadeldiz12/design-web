@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketplace</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/indeks.js"></script>
+</head>
+<body onload="showPopup()">
+  <header>
+    <div class="logo">
+      <img src="gambar/logo toko sepatu_prev_ui.png" alt="Marketplace Logo" class="logo_header">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="http://127.0.0.1:5500/desain_web/projek.html#">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/desain_web/shop.html">Shop</a></li>
+        <li class="dropdown">
+          <a href="#">Categories</a>
+          <div class="dropdown-content">
+            <a href="http://127.0.0.1:5500/desain_web/men.html" class="dropdown-link">Man</a>
+            <a href="http://127.0.0.1:5500/desain_web/women.html" class="dropdown-link">Women</a>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+    <div class="user-actions">
+      <a href="http://127.0.0.1:5500/desain_web/login.html">Login</a>
+      <a href="#">Sign Up</a>
+    </div>
+  </header>
+  <div class="content">
+    <div class="circle">
+      <a href="#" onclick="alert('ngapain anda ngeklik logo kami')"><img src="gambar/logo toko sepatu_prev_ui.png" alt="Marketplace Logo" class="logo"></a>
+    </div>
+    <p>Variety is the spice of life, and your shoe collection should be no different. Explore our endless selection!</p>
+  </div>
+  <div id="popupAd" class="popup" style="display: none;">
+    <h2>Special Offer!</h2>
+    <p>Don't miss out on our exclusive deals. Click <a href="https://qq882elp.com/mobile/id-ID/Member/StreamlinedRegister?R=27D99EFF">here</a> to learn more.</p>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</body>
+</html>
