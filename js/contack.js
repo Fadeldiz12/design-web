@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
       if (valid) {
-          // Handle form submission
           successMessage.textContent = 'Thank you for contacting us!';
           successMessage.classList.add('alert', 'alert-success');
           form.reset();

@@ -282,10 +282,13 @@ body {
 
 .popup {
   position: absolute;
+  width: 200px;
+  height: 150px;
   background-color: white;
-  padding: 20px;
-  border: 2px solid black;
-  z-index: 9999;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: none;
 }
 
 .container-fluid {

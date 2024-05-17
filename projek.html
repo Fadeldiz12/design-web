@@ -4,10 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marketplace</title>
+  <style>
+    .popup {
+  position: absolute;
+  width: 500px; /* Ubah lebar sesuai kebutuhan */
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: none;
+}
+  </style>
   <link rel="stylesheet" href="styles.css">
   <script src="js/indeks.js"></script>
 </head>
-<body onload="showPopup()">
+<body>
   <header>
     <div class="logo">
       <img src="gambar/logo toko sepatu_prev_ui.png" alt="Marketplace Logo" class="logo_header">
@@ -41,10 +53,6 @@
     </div>
     <p>Variety is the spice of life, and your shoe collection should be no different. Explore our endless selection!</p>
   </div>
-  <div id="popupAd" class="popup" style="display: none;">
-    <h2>Special Offer!</h2>
-    <p>Don't miss out on our exclusive deals. Click <a href="https://qq882elp.com/mobile/id-ID/Member/StreamlinedRegister?R=27D99EFF">here</a> to learn more.</p>
-    <button onclick="closePopup()">Close</button>
-  </div>
+  <div id="popupContainer"></div>
 </body>
 </html>
