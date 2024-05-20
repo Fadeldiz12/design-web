@@ -159,18 +159,35 @@ body {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   background-color: #f9f9f9;
   width: 200px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.gambar_sepatu{
+.gambar_sepatu {
   object-fit: cover;
   object-position: center;
   vertical-align: middle;
   width: 200px;
   height: 200px;
   color: gray;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  border-style: initial;
+  position: relative;
+  z-index: 1;
 }
 
+.gambar_sepatu:hover {
+  transform: scale(1.2);
+}
+
+
+
 .sepatu{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
   margin-bottom: 0px;
   margin-top: 5px;
   margin-left: 2px;
@@ -686,10 +703,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
-  vertical-align: middle;
-  border-style: none;
-}
 
 svg {
   overflow: hidden;
