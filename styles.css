@@ -190,17 +190,6 @@ body {
   margin-left: 2px;
 }
 
-.popup {
-  position: absolute;
-  width: 500px;
-  height: 150px;
-  background-color: white;
-  border: 1px solid black;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  display: none;
-}
-
 .beli {
   background-color: #4CAF50;
   color: white;
@@ -294,13 +283,42 @@ body {
 
 .popup {
   position: absolute;
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 160px;
   background-color: white;
   border: 1px solid black;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   display: none;
+}
+
+.close {
+  background-color: #f44336; /* Warna merah */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.close:hover {
+  background-color: #d32f2f; /* Warna merah gelap saat hover */
+}
+
+.close:focus {
+  outline: 2px solid #d32f2f; /* Outline merah saat fokus */
+  background-color: #b71c1c; /* Warna merah lebih gelap saat fokus */
+}
+
+.iklan{
+  color: #007bff;
+  font-family: 'Nasalization';
 }
 
 .container-fluid-co {
