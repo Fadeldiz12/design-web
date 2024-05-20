@@ -4,7 +4,7 @@
   console.log('Starting to create popups');
   setInterval(function() {
     createPopup(container);
-  }, getRandomTime(1, 20) * 1000); // Mengubah detik menjadi milidetik dengan rentang 1-10 detik
+  }, getRandomTime(5, 60) * 1000); // Mengubah detik menjadi milidetik dengan rentang 1-10 detik
 }
 
 // Fungsi untuk membuat dan menampilkan satu pop-up ad
