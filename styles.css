@@ -163,6 +163,16 @@ body {
   overflow: hidden;
 }
 
+.details {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 10;
+  width: 200px; /* Adjust as needed */
+}
+
 .gambar_sepatu {
   object-fit: cover;
   object-position: center;
@@ -345,6 +355,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo-gambar{
+  width: 40px;
+}
+
 .container-fluid-co {
   padding: 50px 15px;
 }
@@ -377,7 +391,7 @@ body {
 
 /* Untuk nama, email, dan subjek */
 #name, #email, #subject {
-  height: 20px; /* Ketinggian yang lebih besar */
+  height: 30px; /* Ketinggian yang lebih besar */
 }
 
 .contact-form .form-control:focus {
