@@ -3,10 +3,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(gambar/background_LE_auto_x2.jpg); 
-  background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
-  background-position: center center; /* Memusatkan gambar di tengah */
-  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-  background-attachment: fixed; /* Menghindari pengulangan gambar */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
 
 header {
@@ -139,7 +139,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  height: 90vh; /* Set height of content to full viewport height */
+  height: 90vh;
   
 }
 
