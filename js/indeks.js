@@ -18,7 +18,7 @@ function createPopup(container) {
   // Konten pop-up
   popup.innerHTML = `
     <h2>Special Offer!</h2>
-    <p class="iklan">Don't miss out on our exclusive deals. Click <a href="#">here</a> to learn more.</p>
+    <p class="iklan">Don't miss out on our exclusive deals. Click <a href="https://www.youtube.com/watch?v=YzP0FmQXtFg">here</a> to learn more.</p>
     <button class="close" onclick="closePopup('${popup.id}')">Close</button>`;
 
   // Mendapatkan lebar dan tinggi dokumen
