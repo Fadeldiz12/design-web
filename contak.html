@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
   <script src="js/contack.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <header>
@@ -72,8 +73,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid bg-dark text-secondary mt-5 pt-5">
-  <div class="row px-xl-5 pt-5">
+<div class="container-fluid bg-dark text-secondary mt-5 pt-5" >
+  <div class="row px-xl-5 pt-5" data-aos="fade-up" data-aos-duration="1000">
       <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
           <h5 class="text-secondary text-uppercase mb-4">Get In Touch</h5>
           <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
@@ -128,5 +129,9 @@
       </div>
   </div>
 </div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
